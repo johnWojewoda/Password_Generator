@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@500;800&display=swap');
+
+body {
+    background-color: black;
+}
+
+.main {
+    height: 550px;
+    width: 550px;
+    background-color:#1F2937;
+    margin: 0 auto;
+    margin-top: 50px;
+    border-radius: 25px;
+    border: 3px solid rgb(202, 189, 189);
+}
+    
+
+h1 {
+    color: white;
+    font-family: 'Karla', sans-serif;
+    margin: 115px 0 0 52px;
+    width: 354px;
+}
+
+#green {
+    color: #4ADF86;
+}
+
+h3 {
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-weight: 100;
+    margin: 10px 0 0 52px;
+}
+
+.btn {
+    width: 191px;
+    height: 42px;
+    margin: 50px 0 0 52px;
+    border-radius: 6px;
+    padding: 9px 17px 9px 15px;
+    gap: 12px;
+    color: white;
+    background-color: #10B981;
+    font-family: 'Inter', sans-serif;
+    font-weight: 100;
+    font-size: 16px;
+    border: none;
+    transition: transform 0.1s, box-shadow 0.1s; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
+.btn:hover {
+    background-color :#096d4c ;
+}
+
+.btn:active {
+    transform: translateY(4px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+
+.line {
+    border: none;
+    height: 2px;
+    background-color: #2F3E53;
+    width: 446px;
+    margin: 36px 52px 40px 52px;
+}
+
+.passwords {
+    display: flex;
+    /* justify-content: space-around; */
+}
+
+.password {
+    font-family: "inter, sans-serif";
+    background-color: #273549;
+    height: 39px;
+    width: 185px;
+    border-radius: 5px;
+    color: whitesmoke;
+    font-size: 15px;
+    font-weight: 200;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 49px;
+    margin-right: 29px; 
+}
+
+#clear {
+    margin:52px 0 0 52px;
+    padding: 5px 10px;
+    background-color: #10B981;
+    color: whitesmoke;
+    font-family: 'Inter', sans-serif;
+    font-weight: 100;
+    border: none;
+    border-radius: 5px;
+}
+
+#clear:hover {
+    background-color :#096d4c ;
+}
+
+#clear:active {
+    transform: translateY(4px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+
